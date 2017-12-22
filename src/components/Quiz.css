@@ -1,0 +1,22 @@
+
+.Quiz {
+  padding: 10px;
+}
+
+.Quiz ol {
+  margin: 0;
+  padding: 0;
+}
+
+.Quiz ol li {
+  border-radius: 10px;
+  background-color: #ffe6e6;
+  border: 2px solid red;
+  padding: 10px;
+  margin: 10px;
+  list-style-position: inside;
+}
+
+.Quiz ol li:hover {
+  background-color: #ffcccc;
+}

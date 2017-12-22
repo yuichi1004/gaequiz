@@ -1,0 +1,48 @@
+.App {
+}
+
+.App-header {
+  background-color: #696969;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Question {
+    padding: 20px;
+}
+
+.Options {
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Score {
+  padding: 30px;
+  width: 400px;
+  font-size: 1.4em;
+}
+
+.Score th {
+  padding: 10px;
+}
+
+.Score td {
+  background-color: ghostwhite;
+  padding: 10px;
+  text-align: right;
+}
+
+.Score .Point {
+  font-weight: bold;
+}
