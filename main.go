@@ -21,4 +21,5 @@ type Score struct {
 func init() {
 	http.HandleFunc("/api/quiz", quizHandler)
 	http.HandleFunc("/api/scores", scoreHandler)
+	http.HandleFunc("/api/reset", resetHandler)
 }
